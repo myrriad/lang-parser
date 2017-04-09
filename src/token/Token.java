@@ -1,5 +1,5 @@
 package token;
 
-public class Token {
+public interface Token {
 
 }

@@ -1,5 +1,5 @@
 package token;
 
-public class WordToken extends Token {
+public class WordToken implements Token {
 
 }

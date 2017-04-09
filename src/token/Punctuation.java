@@ -4,8 +4,7 @@ public enum Punctuation {
 	PERIOD,
 	EXCLAMATION,
 	QUESTION,
-	COMMA,
-	UNRECOGNIZED;
+	COMMA;
 	
 	public static Punctuation determineType(char c) {
 		switch(c) {
@@ -13,7 +12,7 @@ public enum Punctuation {
 		case '!': return EXCLAMATION;
 		case '?': return QUESTION;
 		case ',': return COMMA;
+		default: return null;
 		}
-		return UNRECOGNIZED;
 	}
 }
